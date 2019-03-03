@@ -1,0 +1,50 @@
+[
+  {
+    "number": 1,
+    "name": "Ruby",
+    "preciousness": "precious",
+    "origin": "Asia",
+    "visualParameters": {
+      "color": "red",
+      "transparency": 80,
+      "wayOfCutting": 9
+    },
+    "value": 1
+  },
+  {
+    "number": 2,
+    "name": "Diamond",
+    "preciousness": "precious",
+    "origin": "Africa",
+    "visualParameters": {
+      "color": "white",
+      "transparency": 100,
+      "wayOfCutting": 15
+    },
+    "value": 5
+  },
+  {
+    "number": 3,
+    "name": "Diamond",
+    "preciousness": "precious",
+    "origin": "Africa",
+    "visualParameters": {
+      "color": "yellow",
+      "transparency": 85,
+      "wayOfCutting": 8
+    },
+    "value": 3
+  },
+  {
+    "number": 4,
+    "name": "Zirconium",
+    "preciousness": "semi precious",
+    "origin": "India",
+    "visualParameters": {
+      "color": "white",
+      "transparency": 90,
+      "wayOfCutting": 9
+    },
+    "value": 1
+  }
+]

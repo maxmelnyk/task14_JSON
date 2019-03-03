@@ -1,0 +1,46 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "gems",
+  "$comment": "Array of gems",
+  "type": "array",
+  "items": {
+    "$comment": "Gem describe",
+    "type": "object",
+    "properties": {
+      "number": {
+        "type": "integer"
+      },
+      "name": {
+        "type": "string"
+      },
+      "preciousness": {
+        "type": "string"
+      },
+      "origin": {
+        "type": "string"
+      },
+      "visualParameters": {
+        "$comment": "parameters of this gem",
+        "type": "object",
+        "properties": {
+          "color": {
+            "type": "string"
+          },
+          "transparency": {
+            "type": "number",
+            "minimum": 1.0,
+            "maximum": 100.0
+          },
+          "wayOfCutting": {
+            "type": "integer",
+            "minimum": 4,
+            "maximum": 15
+          }
+        }
+      },
+      "value": {
+        "type": "integer"
+      }
+    }
+  }
+}
